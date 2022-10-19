@@ -10,12 +10,14 @@ An implemenation of line detection and merging for 2D images.
 
 - 64-bit Windows
 - Microsoft Visual C++ 2012 Redistributable Package (x64)
-- Matlab with version > R205
+- Matlab with version > R2015
 
 # Usage
 Check the Main.m for some simple tests
 # Note
 - Line merging and filtering have 4 parameters (dangle, dintercept, max_dist, min_length), refere to [2] for details about these paramters.
 - The parameters dangle, dintercept, max_dist, min_length may need some tuning for images with diffrent resolutions
-
+# References
+[1] C. Akinlar, C. Topal., A. Cuney, T. Cihan, C. Akinlar, and T. Cihan, “EDLines: A Real-Time Line Segment Detector with a False Detection Control,” Pattern Recognit. Lett., vol. 32, no. 13, pp. 1633–1642, Oct. 2011.\
+[2] F. Jabar, M.P. Queluz, and J. Ascenso, “Objective Assessment of Line Distortions in Viewport Rendering of 360⸰ Images,” Proc. of the 1st IEEE International Conference on Artificial Intelligence and Virtual Reality, Taichung, Taiwan, Dec. 2018.
 
