@@ -14,7 +14,8 @@ An implemenation of line detection and merging for 2D images.
 
 # Usage
 Check the Main.m for some simple tests
-
-
+# Note
+- Line merging and filtering have 4 parameters (dangle, dintercept, max_dist, min_length), refere to [2] for details about these paramters.
+- The parameters dangle, dintercept, max_dist, min_length may need some tuning for images with diffrent resolutions
 
 
