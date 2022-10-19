@@ -1,6 +1,10 @@
 
 function Line_merging(I,dangle,dintercept,max_dist, min_length,plot_flag )
 
+
+% Line detection and merging
+% (c) Falah Jabar (falah.jabar@lx.it.pt)
+
 %% =================== Detect lines using EDLine method   ==========================
 lines=EDLinesTest(I);
 %% Get all line end points
