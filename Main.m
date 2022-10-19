@@ -1,4 +1,7 @@
 
+% Line detection and merging
+% (c) Falah Jabar (falah.jabar@lx.it.pt)
+
 clc, clear 
 
 I=imread('Input.bmp'); %% input image
