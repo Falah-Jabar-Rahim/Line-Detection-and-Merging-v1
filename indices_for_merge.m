@@ -1,6 +1,7 @@
 function   index = indices_for_merge(C,count,max_dist)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+
+% Line detection and merging
+% (c) Falah Jabar (falah.jabar@lx.it.pt)
 
 index = zeros(count);
 for i=1:count
