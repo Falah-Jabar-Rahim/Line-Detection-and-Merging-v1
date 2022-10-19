@@ -1,4 +1,8 @@
 function B = complete_segments_info_initial(A,N,dangle)
+
+% Line detection and merging
+% (c) Falah Jabar (falah.jabar@lx.it.pt)
+
 % For each segment in A, this function computes its length, slope (in angle), 
 % intercept with yy axis and intercept with xx axis
 
