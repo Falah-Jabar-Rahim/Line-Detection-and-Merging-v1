@@ -1,5 +1,8 @@
 function [new_C,new_count,flag] = merge(C,index,count)
 
+% Line detection and merging
+% (c) Falah Jabar (falah.jabar@lx.it.pt)
+
 new_C = C;
 flag  = 0;
 canceled_line = zeros(count,1);
